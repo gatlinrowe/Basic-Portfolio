@@ -1,0 +1,33 @@
+header {
+	position: fixed;
+	background: #ffffff;
+	padding: 0px;
+	margin: 0;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	right: 0;
+	border-bottom: 1px solid;
+	border-color: #cccccc;
+
+
+}
+#hlink {
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.link {
+	float: right;
+	padding-left: 10px;
+}
+#logo {
+	padding: 20px;
+	background: #4aaaa5;
+	float: left;
+	margin-left: 100px;
+	color: #ffffff;
+	font-size: 30px;
+
+
+}
