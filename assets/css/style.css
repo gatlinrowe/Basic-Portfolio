@@ -1,7 +1,6 @@
  header {
 	overflow: hidden;
 	background: #ffffff;
-	
 	width: 100%;
 	border-bottom: 1px solid;
 	border-color: #cccccc;
@@ -54,7 +53,9 @@ h2 {
 
 }
 img {
-	padding: 10px;
+	position: relative;
+
+	
 }
 #sidebar {
 	margin-top: 30px;
@@ -80,6 +81,7 @@ footer {
 }
 p {
 	padding: 5px;
+	color: #777777;
 }
 input, textarea {
 	margin: 5px 30px;
@@ -92,4 +94,22 @@ button {
 	padding: 5px 20px;
 	border:none;
 	text-decoration: none;
+}
+#pitem {
+	float: left;
+	margin: 20px;
+}
+#label {
+	position: relative;
+	bottom: 50px;
+	width:100%;
+	padding: 10px 0px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+}
+#connect {
+	float: left;
+	padding: 5px;
+	margin-left: 10px;
 }
